@@ -33,22 +33,33 @@ An interactive Python-based application for object detection powered by the YOLO
 ## 🛠️ How to Run
 
 ### Prerequisites
-- Python 3.7 or later.
-- Required Python packages:
-  ```bash
-  pip install ultralytics pillow opencv-python tkinter
 
+1. **Install Anaconda**  
+   Download and install [Anaconda](https://www.anaconda.com/products/distribution) (Python 3.7 or later).  
+
+2. **Create a Virtual Environment**  
+   Open the Anaconda prompt and run the following commands to create and activate a virtual environment:  
+   ```bash
+   conda create --name object-detection-env python=3.7
+   conda activate object-detection-env
+
+3. **Install Required Python Packages**
+   Install the necessary dependencies in your virtual environment:
+   ```bash
+    pip install ultralytics pillow opencv-python tkinter
+   
 ### Clone the Repository
-- Clone the project to your local machine:
+  Clone the project to your local machine and navigate to the directory:
   ```bash
   git clone https://github.com/username/ObjectDetectionApp.git
   cd ObjectDetectionApp
-
+```
 ### Run the Application
-- Start the app with the following command:
+  Start the app with the following command:
   ```bash
   python object_detection_app.py
-  
+```
+
 ### Use the App Features
 - Launch Camera: Start real-time object detection using your webcam.
 - Upload Image: Choose an image file for object detection.
