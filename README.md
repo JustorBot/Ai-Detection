@@ -62,6 +62,7 @@ An interactive Python-based application for object detection powered by the YOLO
 
 ### Use the App Features
 - Launch Camera: Start real-time object detection using your webcam.
+- Click "p" to close the camera when its open.
 - Upload Image: Choose an image file for object detection.
 - Pick Person Color: Customize the bounding box color for "person" detections.
 - Confidence Threshold Slider: Adjust the detection confidence dynamically.
